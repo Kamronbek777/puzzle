@@ -1,23 +1,52 @@
 .wrapper {
     display: flex;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 body {
-    font-family: 'Fira sans';
+    font-family: 'Arial';
+    background: radial-gradient(circle at 85.4% 50.8%, rgb(14, 72, 222) 0%, rgb(3, 22, 65) 74.2%);
 }
-.box {
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 40px;
+}
+.box1, .box2, .box3, .box4 {
     width: 100px;
-    height: 100px;
-    background-color: red;
+    height: 70px;
+    background-color: rgb(187, 218, 244);
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
 }
+/* .box1 {
+  background-color: #00DDEB;
+}
+.box2 {
+  background-color: #5B42F3;
+}
+.box3 {
+  background-color: #AF40FF;
+}
+.box4 {
+  background-color: #13c29c;  
+} */
 .input {
     text-align: center;
     margin-top: 50px;
     border: none;
     border-bottom: 2px solid navy;
     position: absolute;
-    top: 500px;
-    right: 760px;
+    top: 400px;
+    right: 620px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
 }
 a{
     text-decoration: none;
@@ -45,8 +74,9 @@ a{
   white-space: nowrap;
   cursor: auto;
   position: absolute;
-  top: 600px;
-  right: 760px;
+  top: 500px;
+  right: 653px;
+  margin-top: 20px;
 }
 
 .button:active,
